@@ -1,0 +1,26 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+shift+f",
+        "command": "workbench.action.findInFiles"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "-workbench.action.findInFiles"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "vue3snippets.format",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == 'vue'"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "-vue3snippets.format",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == 'vue'"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "-workbench.view.search",
+        "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/"
+    }
+]

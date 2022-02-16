@@ -1,0 +1,239 @@
+{
+    "codetime.statusBarInfo": "total",
+    "codestats.apikey": "SFMyNTY.YW1waGFXMWxZV3hsYldGdSMjTVRVeU16Zz0.gXypkRW0EMCtSo0aTBvTymgzjgIRVY9gLPF4xbTe7Jk",
+    "codestats.username": "jjaimealeman",
+    "css.validate": false,
+    "css.lint.unknownAtRules": "ignore",
+    "diffEditor.wordWrap": "off",
+    "editor.accessibilitySupport": "off",
+    "editor.colorDecorators": true,
+    "editor.detectIndentation": true,
+    "editor.fontFamily": "Fira Code, monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.fontWeight": "normal",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnSaveMode": "file",
+    "editor.hover.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.bracketPairsHorizontal": "active",
+    "editor.guides.highlightActiveBracketPair": true,
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
+    "editor.mouseWheelZoom": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderLineHighlight": "all",
+    "editor.snippetSuggestions": "top",
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 150,
+    "emmet.triggerExpansionOnTab": false,
+    "explorer.decorations.badges": true,
+    "explorer.decorations.colors": true,
+    "explorer.sortOrder": "filesFirst",
+    "files.autoSave": "onFocusChange",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "html.format.wrapAttributes": "auto",
+    "html.format.wrapLineLength": 0,
+    "html.format.enable": true,
+    "html.format.contentUnformatted": "pre,code,textarea,h1,h2,h3,h4,h5,h6,img,div,section",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "markdown-preview-enhanced.liveUpdate": true,
+    "settingsSync.ignoredExtensions": [],
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.fontFamily": "Fira Code, monospace",
+    "window.title": "${activeEditorLong}${separator}${rootName}",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "[css]": {
+        "editor.suggest.insertMode": "replace"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true
+    },
+    "[html]": {
+        "editor.renderWhitespace": "none",
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "search.exclude": {
+        "**/.git": true,
+        "**/.nuxt": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "package-lock.json": true
+        // "**/tmp": true,
+        // "**/log": true,
+        // "**/public/uploads": true
+    },
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html, vue, astro, js"
+    },
+    "tailwindCSS.emmetCompletions": true,
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.include": [
+        "**/*.js,**/*.jsx,**/*.vue,**/*.tsx,**/*.html,**/*.php,**/*.css,**/*.scss"
+    ],
+    "todohighlight.exclude": [
+        "**/.git **/node_modules /**,**/bower_components /**,**/dist /**,**/build /**,**/.vscode /**,**/_output /**,**/*.min.*,**/*.map"
+    ],
+    "todohighlight.keywords": [
+        {
+            "backgroundColor": "#FFF",
+            "color": "#333333",
+            "text": "COMMENT:"
+        },
+        {
+            "backgroundColor": "#d81616",
+            "color": "#333333",
+            "text": "BROKE:"
+        },
+        {
+            "backgroundColor": "#ffff00",
+            "color": "#d81616",
+            "text": "FIXME:"
+        },
+        {
+            "backgroundColor": "#ff9900",
+            "color": "#333333",
+            "text": "NOTE!!!"
+        },
+        {
+            "backgroundColor": "#6bcb5e",
+            "color": "#333333",
+            "text": "TODO:"
+        }
+    ],
+    "[vue]": {
+        "tailwindCSS.lint.cssConflict": "ignore",
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true,
+            "source.organizeImports": true
+        },
+        "editor.defaultFormatter": "johnsoncodehk.volar"
+    },
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#1073cf2d",
+        "editor.lineHighlightBorder": "#9fced11f",
+        // "tab.activeBorderTop": "#ffffff",
+        "tab.activeBackground": "#1073cf",
+        "[Panda Syntax]": {
+            "editorBracketPairGuide.background1": "#FFB86C",
+            "editorBracketPairGuide.background2": "#FF75B5",
+            "editorBracketPairGuide.background3": "#45A9F9",
+            "editorBracketPairGuide.background4": "#B084EB",
+            "editorBracketPairGuide.background5": "#E6E6E6",
+            "editorBracketPairGuide.background6": "#19f9d8",
+
+            "editorBracketPairGuide.activeBackground1": "#FFB86C",
+            "editorBracketPairGuide.activeBackground2": "#FF75B5",
+            "editorBracketPairGuide.activeBackground3": "#45A9F9",
+            "editorBracketPairGuide.activeBackground4": "#B084EB",
+            "editorBracketPairGuide.activeBackground5": "#E6E6E6",
+            "editorBracketPairGuide.activeBackground6": "#19f9d8",
+        }
+    },
+    "todohighlight.defaultStyle": {},
+    "terminal.integrated.copyOnSelection": true,
+    "files.associations": {
+        "*html": "html",
+        "*.css": "css"
+    },
+    "git.autofetch": true,
+    "editor.minimap.enabled": true,
+    "code-runner.executorMap": {
+        "javascript": "/home/jammo/.nvm/versions/node/v14.17.5/bin/node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "python -u",
+        "perl": "perl",
+        "perl6": "perl6",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "scheme": "csi -script",
+        "ahk": "autohotkey",
+        "autoit": "autoit3",
+        "dart": "dart",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "haskell": "runhaskell",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+        "lisp": "sbcl --script",
+        "kit": "kitc --run",
+        "v": "v run",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    },
+    "workbench.colorTheme": "Dracula",
+    "thunder-client.codeSnippetLanguage": "js-fetch",
+    "editor.formatOnType": false,
+    "redhat.telemetry.enabled": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "projectManager.any.baseFolders": [
+        "~/www/"
+    ],
+    "projectManager.any.ignoredFolders": [
+        "node_modules",
+        "out",
+        "typings",
+        "test",
+        ".git",
+        ".nuxt"
+    ],
+    "projectManager.any.maxDepthRecursion": 2,
+    "editor.linkedEditing": true,
+    "tabnine.experimentalAutoImports": true,
+    "editor.lineNumbers": "on",
+    "scss.hover.references": false,
+    "less.hover.references": false,
+    "css.hover.references": false,
+    "html.hover.references": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "projectManager.sortList": "Name",
+    "vsicons.dontShowNewVersionMessage": true
+}
