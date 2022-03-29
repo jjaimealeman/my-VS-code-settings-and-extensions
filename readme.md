@@ -1,5 +1,7 @@
 ## Wed Feb 12 2022
 
+---
+
 As a Front-End Web Developer, I rely heavily on VS Code.
 
 Recently I decided to make a backup of my `settings.json`, `/snippets/` folder and a generated list of my installed extensions `vs_code_extensions_list.txt`.
