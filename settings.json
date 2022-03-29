@@ -1,6 +1,7 @@
 {
     // updated 2022-03-11 00:40
     // https://github.com/antfu/vscode-file-nesting-config
+    // CONFIG ENDS ON LINE 51
     "explorer.experimental.fileNesting.enabled": true,
     "explorer.experimental.fileNesting.expand": false,
     "explorer.experimental.fileNesting.patterns": {
@@ -51,171 +52,9 @@
     "astro.config.*": "*.env, .babelrc*, .codecov, .cssnanorc*, .env.*, .htmlnanorc*, .mocha*, .postcssrc*, .terserrc*, api-extractor.json, ava.config.*, babel.config.*, cssnano.config.*, cypress.json, env.d.ts, htmlnanorc.*, jasmine.*, jest.config.*, jsconfig.*, karma*, playwright.config.*, postcss.config.*, puppeteer.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*",
     "gatsby-config.*": "*.env, .babelrc*, .codecov, .cssnanorc*, .env.*, .htmlnanorc*, .mocha*, .postcssrc*, .terserrc*, api-extractor.json, ava.config.*, babel.config.*, cssnano.config.*, cypress.json, env.d.ts, gatsby-browser.*, gatsby-node.*, gatsby-ssr.*, gatsby-transformer.*, htmlnanorc.*, jasmine.*, jest.config.*, jsconfig.*, karma*, playwright.config.*, postcss.config.*, puppeteer.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*"
     },
-    "codetime.statusBarInfo": "total",
-    "codestats.apikey": "SFMyNTY.YW1waGFXMWxZV3hsYldGdSMjTVRVeU16Zz0.gXypkRW0EMCtSo0aTBvTymgzjgIRVY9gLPF4xbTe7Jk",
-    "codestats.username": "jjaimealeman",
-    "css.validate": false,
-    "css.lint.unknownAtRules": "ignore",
-    "diffEditor.wordWrap": "off",
-    "editor.accessibilitySupport": "off",
-    "editor.bracketPairColorization.enabled": true,
-    "editor.colorDecorators": true,
-    "editor.detectIndentation": true,
-    "editor.fontFamily": "Fira Code, monospace",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 13,
-    "editor.fontWeight": "normal",
-    "editor.formatOnPaste": false,
-    "editor.formatOnSave": false,
-    "editor.formatOnSaveMode": "file",
-    "editor.hover.enabled": true,
-    "editor.guides.bracketPairs": true,
-    "editor.guides.bracketPairsHorizontal": "active",
-    "editor.guides.highlightActiveBracketPair": true,
-    "editor.guides.highlightActiveIndentation": true,
-    "editor.minimap.renderCharacters": false,
-    "editor.minimap.showSlider": "always",
-    "editor.mouseWheelZoom": true,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.renderLineHighlight": "all",
-    "editor.snippetSuggestions": "top",
-    "editor.wordWrap": "on",
-    "editor.wordWrapColumn": 150,
-    "emmet.triggerExpansionOnTab": true,
-    "explorer.decorations.badges": true,
-    "explorer.decorations.colors": true,
-    "explorer.sortOrder": "filesFirst",
-    "files.autoSave": "onFocusChange",
-    "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
-    "files.trimFinalNewlines": true,
-    "html.format.wrapAttributes": "auto",
-    "html.format.wrapLineLength": 0,
-    "html.format.enable": true,
-    "html.format.contentUnformatted": "pre,code,textarea,h1,h2,h3,h4,h5,h6,img,div,section",
-    "javascript.inlayHints.parameterNames.enabled": "all",
-    "markdown-preview-enhanced.liveUpdate": true,
-    "settingsSync.ignoredExtensions": [],
-    "telemetry.telemetryLevel": "off",
-    "terminal.integrated.fontFamily": "Fira Code, monospace",
-    "typescript.inlayHints.parameterNames.enabled": "all",
-    "windicss.includeLanguages": {
-        "plaintext": "html, vue, astro, js"
-    },
-    "window.title": "${activeEditorLong}${separator}${rootName}",
-    "workbench.editor.highlightModifiedTabs": true,
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.sideBar.location": "right",
-    "workbench.startupEditor": "none",
-    "[css]": {
-        "editor.suggest.insertMode": "replace"
-    },
-    "editor.quickSuggestions": {
-        "strings": true
-    },
-    "files.watcherExclude": {
-        "**/.git/objects/**": true,
-        "**/.git/subtree-cache/**": true,
-        "**/node_modules/*/**": true
-    },
-    "[html]": {
-        "editor.renderWhitespace": "none",
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[scss]": {
-        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
-    },
-    "search.exclude": {
-        "**/.git": true,
-        "**/.nuxt": true,
-        "**/node_modules": true,
-        "**/bower_components": true,
-        "package-lock.json": true
-        // "**/tmp": true,
-        // "**/log": true,
-        // "**/public/uploads": true
-    },
-    "tailwindCSS.includeLanguages": {
-        "plaintext": "html, vue, astro, js"
-    },
-    "tailwindCSS.emmetCompletions": true,
-    "todohighlight.isEnable": true,
-    "todohighlight.isCaseSensitive": true,
-    "todohighlight.include": [
-        "**/*.js,**/*.jsx,**/*.vue,**/*.tsx,**/*.html,**/*.php,**/*.css,**/*.scss"
-    ],
-    "todohighlight.exclude": [
-        "**/.git **/node_modules /**,**/bower_components /**,**/dist /**,**/build /**,**/.vscode /**,**/_output /**,**/*.min.*,**/*.map"
-    ],
-    "todohighlight.keywords": [
-        {
-            "backgroundColor": "#FFF",
-            "color": "#333333",
-            "text": "COMMENT:"
-        },
-        {
-            "backgroundColor": "#d81616",
-            "color": "#333333",
-            "text": "BROKE:"
-        },
-        {
-            "backgroundColor": "#ffff00",
-            "color": "#d81616",
-            "text": "FIXME:"
-        },
-        {
-            "backgroundColor": "#ff9900",
-            "color": "#333333",
-            "text": "NOTE!!!"
-        },
-        {
-            "backgroundColor": "#6bcb5e",
-            "color": "#333333",
-            "text": "TODO:"
-        }
-    ],
-    "[vue]": {
-        "editor.codeActionsOnSave": {
-            "source.fixAll": true,
-            "source.organizeImports": true
-        },
-        "editor.defaultFormatter": "johnsoncodehk.volar",
-        // "editor.defaultFormatter": "Wscats.vue"
-    },
-    "workbench.colorCustomizations": {
-        "editor.lineHighlightBackground": "#1073cf2d",
-        "editor.lineHighlightBorder": "#9fced11f",
-        // "tab.activeBorderTop": "#ffffff",
-        "tab.activeBackground": "#1073cf",
-        "[Panda Syntax]": {
-            "editorBracketPairGuide.background1": "#FFB86C",
-            "editorBracketPairGuide.background2": "#FF75B5",
-            "editorBracketPairGuide.background3": "#45A9F9",
-            "editorBracketPairGuide.background4": "#B084EB",
-            "editorBracketPairGuide.background5": "#E6E6E6",
-            "editorBracketPairGuide.background6": "#19f9d8",
-
-            "editorBracketPairGuide.activeBackground1": "#FFB86C",
-            "editorBracketPairGuide.activeBackground2": "#FF75B5",
-            "editorBracketPairGuide.activeBackground3": "#45A9F9",
-            "editorBracketPairGuide.activeBackground4": "#B084EB",
-            "editorBracketPairGuide.activeBackground5": "#E6E6E6",
-            "editorBracketPairGuide.activeBackground6": "#19f9d8",
-        }
-    },
-    "todohighlight.defaultStyle": {},
-    "terminal.integrated.copyOnSelection": true,
-    "files.associations": {
-        "*html": "html",
-        "*.css": "css"
-    },
-    "git.autofetch": true,
-    "editor.minimap.enabled": true,
+    // END OF CONFIG
     "code-runner.executorMap": {
-        "javascript": "/home/jammo/.nvm/versions/node/v14.17.5/bin/node",
+        // "javascript": "/home/jammo/.nvm/versions/node/v14.17.5/bin/node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
@@ -266,37 +105,222 @@
         "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
     },
-    "workbench.colorTheme": "Dracula",
-    "thunder-client.codeSnippetLanguage": "js-fetch",
+    "codetime.statusBarInfo": "total",
+    "codestats.apikey": "SFMyNTY.YW1waGFXMWxZV3hsYldGdSMjTVRVeU16Zz0.gXypkRW0EMCtSo0aTBvTymgzjgIRVY9gLPF4xbTe7Jk",
+    "codestats.username": "jjaimealeman",
+    "css.hover.references": false,
+    "css.lint.unknownAtRules": "ignore",
+    "css.validate": false,
+    "diffEditor.wordWrap": "off",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.accessibilitySupport": "off",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.colorDecorators": true,
+    "editor.detectIndentation": true,
+    "editor.fontFamily": "Fira Code, monospace",
     "editor.formatOnType": false,
-    "redhat.telemetry.enabled": true,
-    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.fontWeight": "normal",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnSaveMode": "file",
+    "editor.hover.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": "active",
+    "editor.guides.highlightActiveBracketPair": true,
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.lineNumbers": "relative",
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
+    "editor.mouseWheelZoom": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.renderLineHighlight": "all",
+    "editor.snippetSuggestions": "top",
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 150,
+    "files.associations": {
+        "*html": "html",
+        "*.css": "css"
+    },
+    "git.autofetch": true,
+    "emmet.triggerExpansionOnTab": true,
+    "explorer.decorations.badges": true,
+    "explorer.decorations.colors": true,
+    "explorer.sortOrder": "filesFirst",
+    "files.autoSave": "onFocusChange",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true
+    },
+    "html.format.wrapAttributes": "auto",
+    "html.format.wrapLineLength": 0,
+    "html.format.enable": true,
+    "html.format.contentUnformatted": "pre,code,textarea,h1,h2,h3,h4,h5,h6,img,div,section",
+    "html.hover.references": false,
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "less.hover.references": false,
+    "markdown-preview-enhanced.liveUpdate": true,
     "projectManager.any.baseFolders": [
         "~/www/"
     ],
     "projectManager.any.ignoredFolders": [
+        ".git",
+        ".nuxt",
         "node_modules",
         "out",
-        "typings",
         "test",
-        ".git",
-        ".nuxt"
+        "typings"
     ],
     "projectManager.any.maxDepthRecursion": 2,
-    "editor.linkedEditing": true,
-    "tabnine.experimentalAutoImports": true,
-    "editor.lineNumbers": "on",
-    "scss.hover.references": false,
-    "less.hover.references": false,
-    "css.hover.references": false,
-    "html.hover.references": false,
-    "diffEditor.ignoreTrimWhitespace": false,
     "projectManager.sortList": "Name",
+    "redhat.telemetry.enabled": true,
+    "scss.hover.references": false,
+    "search.exclude": {
+        "**/.git": true,
+        "**/.nuxt": true,
+        "**/dist": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "package-lock.json": true
+        // "**/tmp": true,
+        // "**/log": true,
+        // "**/public/uploads": true
+    },
+    "settingsSync.ignoredExtensions": [],
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html, vue, astro, js"
+    },
+    "tailwindCSS.emmetCompletions": true,
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.fontFamily": "Fira Code, monospace",
+    "typescript.inlayHints.parameterNames.enabled": "all",
+    "windicss.includeLanguages": {
+        "plaintext": "html, vue, astro, js"
+    },
+    "terminal.integrated.copyOnSelection": true,
+    "todohighlight.defaultStyle": {},
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.isEnable": true,
+    "todohighlight.include": [
+        "**/*.js,**/*.jsx,**/*.vue,**/*.tsx,**/*.html,**/*.php,**/*.css,**/*.scss"
+    ],
+    "todohighlight.exclude": [
+        "**/.git **/node_modules /**,**/bower_components /**,**/dist /**,**/build /**,**/.vscode /**,**/_output /**,**/*.min.*,**/*.map"
+    ],
+    "todohighlight.keywords": [
+        {
+            "backgroundColor": "#FFF",
+            "color": "#333333",
+            "text": "COMMENT:"
+        },
+        {
+            "backgroundColor": "#d81616",
+            "color": "#ffff00",
+            "text": "FIXME:"
+        },
+        {
+            "backgroundColor": "#16d816",
+            "color": "#333333",
+            "text": "TODO:"
+        }
+    ],
+    // "window.title": "${activeEditorShort}${separator}${rootName}",
+    "security.workspace.trust.untrustedFiles": "open",
+    "thunder-client.codeSnippetLanguage": "js-fetch",
     "vsicons.dontShowNewVersionMessage": true,
+    "window.title": "${rootName}${separator}${activeEditorShort}",
+    "workbench.colorTheme": "Dracula",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#1073cf2d",
+        "editor.lineHighlightBorder": "#9fced11f",
+        "tab.activeBorderTop": "#ffffff",
+        "tab.activeBackground": "#1073cf",
+        "[Panda Syntax]": {
+            "editorBracketPairGuide.background1": "#FFB86C",
+            "editorBracketPairGuide.background2": "#FF75B5",
+            "editorBracketPairGuide.background3": "#45A9F9",
+            "editorBracketPairGuide.background4": "#B084EB",
+            "editorBracketPairGuide.background5": "#E6E6E6",
+            "editorBracketPairGuide.background6": "#19f9d8",
+
+            "editorBracketPairGuide.activeBackground1": "#FFB86C",
+            "editorBracketPairGuide.activeBackground2": "#FF75B5",
+            "editorBracketPairGuide.activeBackground3": "#45A9F9",
+            "editorBracketPairGuide.activeBackground4": "#B084EB",
+            "editorBracketPairGuide.activeBackground5": "#E6E6E6",
+            "editorBracketPairGuide.activeBackground6": "#19f9d8",
+        }
+    },
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "[css]": {
+        "editor.suggest.insertMode": "replace"
+    },
+    "[html]": {
+        "editor.renderWhitespace": "none",
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "[vue]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true,
+            "source.organizeImports": true
+        },
+        "editor.defaultFormatter": "johnsoncodehk.volar",
+        // "editor.defaultFormatter": "Wscats.vue"
+    },
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "d"],
+            "after": ["d", "d"]
+        },
+        {
+            "before": ["<C-n>"],
+            "commands": [":nohl"]
+        },
+        {
+            "before": ["K"],
+            "commands": ["lineBreakInsert"],
+            "silent": true
+        }
+    ],
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
 }
