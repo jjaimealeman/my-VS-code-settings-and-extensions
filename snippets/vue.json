@@ -13,20 +13,15 @@
     // 	"description": "Log output to console"
     // }
     "my base vue3 template": {
-        "prefix": "vue",
+        "prefix": "my-vue",
         "body": [
-            " <!-- https://snippet-generator.app/ --> "
             "<template>",
             "    ${1}",
             "</template>",
             "",
             "",
-            "<script>${2}",
-            "    export default {"
-            "        name: '',"
-            "        components: {},"
-            "        data() {};"
-            "    }"
+            "<script>",
+            "    ${2}",
             "</script>",
             "",
             "",
