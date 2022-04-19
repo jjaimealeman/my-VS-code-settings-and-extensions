@@ -146,15 +146,12 @@
     },
     "settingsSync.ignoredExtensions": [],
     "tailwindCSS.includeLanguages": {
-        "plaintext": "html, vue, astro, js"
+        "plaintext": "html, vue, js"
     },
     "tailwindCSS.emmetCompletions": true,
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.fontFamily": "Fira Code, monospace",
     "typescript.inlayHints.parameterNames.enabled": "all",
-    "windicss.includeLanguages": {
-        "plaintext": "html, vue, astro, js"
-    },
     "terminal.integrated.copyOnSelection": true,
     "todohighlight.defaultStyle": {},
     "todohighlight.isCaseSensitive": true,
