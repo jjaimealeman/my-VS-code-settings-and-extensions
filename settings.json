@@ -1,6 +1,5 @@
 {
     "code-runner.executorMap": {
-        // "javascript": "/home/jammo/.nvm/versions/node/v14.17.5/bin/node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
@@ -54,13 +53,15 @@
     "codetime.statusBarInfo": "total",
     "codestats.apikey": "SFMyNTY.YW1waGFXMWxZV3hsYldGdSMjTVRVeU16Zz0.gXypkRW0EMCtSo0aTBvTymgzjgIRVY9gLPF4xbTe7Jk",
     "codestats.username": "jjaimealeman",
+    "css.completion.completePropertyWithSemicolon": true,
     "css.hover.references": false,
     "css.lint.unknownAtRules": "ignore",
-    "css.validate": false,
+    "css.validate": true,
     "diffEditor.wordWrap": "off",
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.accessibilitySupport": "off",
     "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
     "editor.colorDecorators": true,
     "editor.detectIndentation": true,
     "editor.fontFamily": "Fira Code, monospace",
@@ -73,12 +74,11 @@
     "editor.formatOnSaveMode": "file",
     "editor.hover.enabled": true,
     "editor.guides.bracketPairs": true,
-    "editor.guides.bracketPairsHorizontal": "active",
-    "editor.guides.highlightActiveBracketPair": true,
+    "editor.guides.bracketPairsHorizontal": true,
     "editor.guides.highlightActiveIndentation": true,
-    // "editor.lineNumbers": "relative",
     "editor.lineNumbers": "on",
     "editor.linkedEditing": true,
+    "editor.matchBrackets": "always",
     "editor.minimap.enabled": true,
     "editor.minimap.renderCharacters": false,
     "editor.minimap.showSlider": "always",
@@ -89,6 +89,7 @@
     },
     "editor.renderLineHighlight": "all",
     "editor.snippetSuggestions": "top",
+    "editor.stickyScroll.enabled": true,
     "editor.wordWrap": "on",
     "editor.wordWrapColumn": 150,
     "files.associations": {
@@ -100,7 +101,6 @@
     "explorer.decorations.badges": true,
     "explorer.decorations.colors": true,
     "explorer.sortOrder": "filesFirst",
-    "files.autoSave": "onFocusChange",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
@@ -109,15 +109,26 @@
         "**/.git/subtree-cache/**": true,
         "**/node_modules/*/**": true
     },
-    "html.format.wrapAttributes": "auto",
-    "html.format.wrapLineLength": 0,
-    "html.format.enable": true,
-    "html.format.contentUnformatted": "pre,code,textarea,h1,h2,h3,h4,h5,h6,img,div,section",
+    // "html.format.wrapAttributes": "auto",
+    // "html.format.wrapAttributes": "preserve",
+    // "html.format.wrapAttributes": "preserve-aligned",
+    // "html.format.wrapAttributesIndentSize": null,
+    // "html.format.wrapLineLength": 0,
+    // "html.format.enable": true,
+    // "html.format.contentUnformatted": "pre,code,textarea,h1,h2,h3,h4,h5,h6,img,div,section,span",
+    // "html.format.unformattedContentDelimiter": "pre,code,textarea,h1,h2,h3,h4,h5,h6,img,div,section,span",
     "html.hover.references": false,
+    "indentRainbow.colors": [
+        "rgba(139, 233, 253, 0.2)",
+        "rgba(80, 250, 123, 0.2)",
+        "rgba(255, 184, 108, 0.2)",
+        "rgba(255, 121, 198, 0.2)",
+        "rgba(189, 147, 249, 0.2)",
+        "rgba(241, 250, 14, 0.20)"
+    ],
     "js/ts.implicitProjectConfig.experimentalDecorators": true,
     "javascript.inlayHints.parameterNames.enabled": "all",
     "less.hover.references": false,
-    "markdown-preview-enhanced.liveUpdate": true,
     "projectManager.any.baseFolders": [
         "~/www/"
     ],
@@ -140,83 +151,71 @@
         "**/node_modules": true,
         "**/bower_components": true,
         "package-lock.json": true
-        // "**/tmp": true,
-        // "**/log": true,
-        // "**/public/uploads": true
     },
     "settingsSync.ignoredExtensions": [],
-    "tailwindCSS.includeLanguages": {
-        "plaintext": "html, vue, js"
-    },
     "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html, vue, js, astro"
+    },
+    "tailwindCSS.lint.recommendedVariantOrder": "error",
+    "tailwindCSS.suggestions": true,
+    "tailwindCSS.hovers": true,
     "telemetry.telemetryLevel": "off",
-    "terminal.integrated.fontFamily": "Fira Code, monospace",
-    "typescript.inlayHints.parameterNames.enabled": "all",
+
+    // "terminal.external.linuxExec": "/usr/bin/kitty",
+    // "terminal.explorerKind": "external",
     "terminal.integrated.copyOnSelection": true,
-    "todohighlight.defaultStyle": {},
-    "todohighlight.isCaseSensitive": true,
-    "todohighlight.isEnable": true,
-    "todohighlight.include": [
-        "**/*.js,**/*.jsx,**/*.vue,**/*.tsx,**/*.html,**/*.php,**/*.css,**/*.scss"
-    ],
-    "todohighlight.exclude": [
-        "**/.git **/node_modules /**,**/bower_components /**,**/dist /**,**/build /**,**/.vscode /**,**/_output /**,**/*.min.*,**/*.map"
-    ],
-    "todohighlight.keywords": [
-        {
-            "backgroundColor": "#FFF",
-            "color": "#333333",
-            "text": "COMMENT:"
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.fontFamily": "Fira Code, monospace",
+    "terminal.integrated.shellIntegration.enabled": false,
+    "terminal.integrated.shellIntegration.decorationsEnabled": "gutter",
+
+    "terminal.integrated.profiles.linux": {
+        "zsh": {
+            "path": "zsh"
         },
-        {
-            "backgroundColor": "#d81616",
-            "color": "#ffff00",
-            "text": "FIXME:"
-        },
-        {
-            "backgroundColor": "#16d816",
-            "color": "#333333",
-            "text": "TODO:"
-        }
-    ],
-    // "window.title": "${activeEditorShort}${separator}${rootName}",
+    },
+
+    "typescript.inlayHints.parameterNames.enabled": "all",
     "security.workspace.trust.untrustedFiles": "open",
-    "thunder-client.codeSnippetLanguage": "js-fetch",
     "vsicons.dontShowNewVersionMessage": true,
     "window.title": "${rootName}${separator}${activeEditorShort}",
-    "workbench.colorTheme": "Dracula",
     "workbench.colorCustomizations": {
         "editor.lineHighlightBackground": "#1073cf2d",
         "editor.lineHighlightBorder": "#9fced11f",
         "tab.activeBorderTop": "#ffffff",
         "tab.activeBackground": "#1073cf",
-        "[Panda Syntax]": {
-            "editorBracketPairGuide.background1": "#FFB86C",
-            "editorBracketPairGuide.background2": "#FF75B5",
-            "editorBracketPairGuide.background3": "#45A9F9",
-            "editorBracketPairGuide.background4": "#B084EB",
-            "editorBracketPairGuide.background5": "#E6E6E6",
-            "editorBracketPairGuide.background6": "#19f9d8",
-
-            "editorBracketPairGuide.activeBackground1": "#FFB86C",
-            "editorBracketPairGuide.activeBackground2": "#FF75B5",
-            "editorBracketPairGuide.activeBackground3": "#45A9F9",
-            "editorBracketPairGuide.activeBackground4": "#B084EB",
-            "editorBracketPairGuide.activeBackground5": "#E6E6E6",
-            "editorBracketPairGuide.activeBackground6": "#19f9d8",
-        }
+        "editorBracketMatch.border": "#ccc",
+        "editorBracketHighlight.foreground1": "#8be9fd",
+        "editorBracketPairGuide.background1": "#8be9fd",
+        "editorBracketPairGuide.activeBackground1": "#8be9fd",
+        "editorBracketHighlight.foreground2": "#50fa7b",
+        "editorBracketPairGuide.background2": "#50fa7b",
+        "editorBracketPairGuide.activeBackground2": "#50fa7b",
+        "editorBracketHighlight.foreground3": "#ffb86c",
+        "editorBracketPairGuide.background3": "#ffb86c",
+        "editorBracketPairGuide.activeBackground3": "#ffb86c",
+        "editorBracketHighlight.foreground4": "#ff79c6",
+        "editorBracketPairGuide.background4": "#ff79c6",
+        "editorBracketPairGuide.activeBackground4": "#ff79c6",
+        "editorBracketHighlight.foreground5": "#bd93f9",
+        "editorBracketPairGuide.background5": "#bd93f9",
+        "editorBracketPairGuide.activeBackground5": "#bd93f9",
+        "editorBracketHighlight.foreground6": "#f1fa8c",
+        "editorBracketPairGuide.background6": "#f1fa8c",
+        "editorBracketPairGuide.activeBackground6": "#f1fa8c",
+        "editorLineNumber.activeForeground": "#FFF",
     },
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.iconTheme": "vscode-icons",
-    "workbench.sideBar.location": "right",
     "workbench.startupEditor": "none",
     "[css]": {
         "editor.suggest.insertMode": "replace",
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.css-language-features"
     },
     "[html]": {
         "editor.renderWhitespace": "none",
-        "editor.defaultFormatter": "vscode.html-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -229,8 +228,7 @@
             "source.fixAll": true,
             "source.organizeImports": true
         },
-        "editor.defaultFormatter": "johnsoncodehk.volar",
-        // "editor.defaultFormatter": "Wscats.vue"
+        "editor.defaultFormatter": "Vue.volar",
     },
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -239,9 +237,20 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "extensions.ignoreRecommendations": true,
-    "errorLens.delay": 500,
-    "errorLens.statusBarIconsEnabled": true,
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
-    }
+    },
+    "files.autoSave": "onFocusChange",
+    "[handlebars]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editorAssociations": {
+        "*.vue": "default"
+    },
+    "workbench.colorTheme": "Dracula",
+    "workbench.activityBar.visible": false,
+    "workbench.sideBar.location": "right",
+    // "terminal.external.linuxExec": "kitty",
+
 }
+// 256
