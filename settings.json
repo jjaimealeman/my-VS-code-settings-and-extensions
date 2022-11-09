@@ -58,6 +58,7 @@
     "css.lint.unknownAtRules": "ignore",
     "css.validate": true,
     "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
     "diffEditor.wordWrap": "off",
     "editor.accessibilitySupport": "off",
     "editor.autoClosingQuotes": "always",
@@ -116,6 +117,8 @@
         "**/node_modules/*/**": true
     },
     "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
     "html.hover.references": false,
     "indentRainbow.colors": [
         "rgba(139, 233, 253, 0.2)",
@@ -217,9 +220,6 @@
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "[scss]": {
-        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
-    },
     "[vue]": {
         "editor.codeActionsOnSave": {
             "source.fixAll": true,
@@ -240,4 +240,4 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
 }
-// 244
+// 243
