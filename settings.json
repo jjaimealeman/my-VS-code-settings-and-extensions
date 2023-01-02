@@ -58,7 +58,6 @@
     "css.lint.unknownAtRules": "ignore",
     "css.validate": true,
     "diffEditor.ignoreTrimWhitespace": false,
-    "diffEditor.renderSideBySide": false,
     "diffEditor.wordWrap": "off",
     "editor.accessibilitySupport": "off",
     "editor.autoClosingQuotes": "always",
@@ -215,7 +214,8 @@
     },
     "[html]": {
         "editor.renderWhitespace": "none",
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        // "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -239,5 +239,12 @@
     "[handlebars]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": true
+    },
+    "explorer.confirmDragAndDrop": false
 }
 // 243

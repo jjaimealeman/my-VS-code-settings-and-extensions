@@ -1,0 +1,9 @@
+{
+    "my snippet for iconify icons": {
+        "prefix": "my-icon",
+        "body": [
+            "<Icon class=\"inline\" icon=\"${1}\"></Icon>",
+        ],
+        "description": "my snippet for iconify icons"
+    }
+}
