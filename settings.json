@@ -73,6 +73,8 @@
     "editor.formatOnPaste": false,
     "editor.formatOnSave": false,
     "editor.formatOnSaveMode": "file",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true},
     "editor.formatOnType": false,
     "editor.guides.bracketPairs": true,
     "editor.guides.bracketPairsHorizontal": true,
@@ -119,14 +121,14 @@
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
     "html.hover.references": false,
-    "indentRainbow.colors": [
-        "rgba(139, 233, 253, 0.2)",
-        "rgba(80, 250, 123, 0.2)",
-        "rgba(255, 184, 108, 0.2)",
-        "rgba(255, 121, 198, 0.2)",
-        "rgba(189, 147, 249, 0.2)",
-        "rgba(241, 250, 14, 0.20)"
-    ],
+    // "indentRainbow.colors": [
+    //     "rgba(139, 233, 253, 0.2)",
+    //     "rgba(80, 250, 123, 0.2)",
+    //     "rgba(255, 184, 108, 0.2)",
+    //     "rgba(255, 121, 198, 0.2)",
+    //     "rgba(189, 147, 249, 0.2)",
+    //     "rgba(241, 250, 14, 0.20)"
+    // ],
     "javascript.inlayHints.parameterNames.enabled": "all",
     "js/ts.implicitProjectConfig.experimentalDecorators": true,
     "less.hover.references": false,
@@ -174,33 +176,32 @@
     "vsicons.dontShowNewVersionMessage": true,
     "window.title": "${rootName}${separator}${activeEditorShort}",
     "workbench.activityBar.visible": false,
-    "workbench.colorCustomizations": {
-        "editor.lineHighlightBackground": "#1073cf2d",
-        "editor.lineHighlightBorder": "#9fced11f",
-        "editorBracketHighlight.foreground1": "#8be9fd",
-        "editorBracketHighlight.foreground2": "#50fa7b",
-        "editorBracketHighlight.foreground3": "#ffb86c",
-        "editorBracketHighlight.foreground4": "#ff79c6",
-        "editorBracketHighlight.foreground5": "#bd93f9",
-        "editorBracketHighlight.foreground6": "#f1fa8c",
-        "editorBracketMatch.border": "#ccc",
-        "editorBracketPairGuide.activeBackground1": "#8be9fd",
-        "editorBracketPairGuide.activeBackground2": "#50fa7b",
-        "editorBracketPairGuide.activeBackground3": "#ffb86c",
-        "editorBracketPairGuide.activeBackground4": "#ff79c6",
-        "editorBracketPairGuide.activeBackground5": "#bd93f9",
-        "editorBracketPairGuide.activeBackground6": "#f1fa8c",
-        "editorBracketPairGuide.background1": "#8be9fd",
-        "editorBracketPairGuide.background2": "#50fa7b",
-        "editorBracketPairGuide.background3": "#ffb86c",
-        "editorBracketPairGuide.background4": "#ff79c6",
-        "editorBracketPairGuide.background5": "#bd93f9",
-        "editorBracketPairGuide.background6": "#f1fa8c",
-        "editorLineNumber.activeForeground": "#FFF",
-        "tab.activeBackground": "#1073cf",
-        "tab.activeBorderTop": "#ffffff",
-    },
-    "workbench.colorTheme": "Dracula",
+    // "workbench.colorCustomizations": {
+    //     "editor.lineHighlightBackground": "#1073cf2d",
+    //     "editor.lineHighlightBorder": "#9fced11f",
+    //     "editorBracketHighlight.foreground1": "#8be9fd",
+    //     "editorBracketHighlight.foreground2": "#50fa7b",
+    //     "editorBracketHighlight.foreground3": "#ffb86c",
+    //     "editorBracketHighlight.foreground4": "#ff79c6",
+    //     "editorBracketHighlight.foreground5": "#bd93f9",
+    //     "editorBracketHighlight.foreground6": "#f1fa8c",
+    //     "editorBracketMatch.border": "#ccc",
+    //     "editorBracketPairGuide.activeBackground1": "#8be9fd",
+    //     "editorBracketPairGuide.activeBackground2": "#50fa7b",
+    //     "editorBracketPairGuide.activeBackground3": "#ffb86c",
+    //     "editorBracketPairGuide.activeBackground4": "#ff79c6",
+    //     "editorBracketPairGuide.activeBackground5": "#bd93f9",
+    //     "editorBracketPairGuide.activeBackground6": "#f1fa8c",
+    //     "editorBracketPairGuide.background1": "#8be9fd",
+    //     "editorBracketPairGuide.background2": "#50fa7b",
+    //     "editorBracketPairGuide.background3": "#ffb86c",
+    //     "editorBracketPairGuide.background4": "#ff79c6",
+    //     "editorBracketPairGuide.background5": "#bd93f9",
+    //     "editorBracketPairGuide.background6": "#f1fa8c",
+    //     "editorLineNumber.activeForeground": "#FFF",
+    //     "tab.activeBackground": "#1073cf",
+    //     "tab.activeBorderTop": "#ffffff",
+    // },
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editorAssociations": {
         "*.vue": "default"
@@ -240,11 +241,19 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "github.copilot.enable": {
+
         "*": true,
         "yaml": false,
         "plaintext": false,
         "markdown": true
     },
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "Nightfox",
+    "emmet.includeLanguages": {
+        "mdx": "html",
+        "astro": "html"
+    },
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.enabled": false,
 }
 // 243
