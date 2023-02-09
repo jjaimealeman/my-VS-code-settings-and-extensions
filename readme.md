@@ -26,7 +26,7 @@ Run this command to list all installed extensions:
 
 Run the same command and save the output to a `.txt` file:
 
-    code --list-extensions >> vs_code_extensions_list.txt`
+    code --list-extensions > vs_code_extensions_list.txt`
 
 ---
 
